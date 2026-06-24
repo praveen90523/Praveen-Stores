@@ -1,0 +1,1016 @@
+[
+  {
+    "name": "Organic Premium Quinoa (1kg)",
+    "category": "Groceries",
+    "price": 349,
+    "originalPrice": 499,
+    "rating": 4.7,
+    "stock": 85,
+    "description": "Sustainably sourced, pre-washed organic white quinoa grains. Packed with plant-based protein, fiber, and essential amino acids.",
+    "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Cold-Pressed Virgin Olive Oil (500ml)",
+    "category": "Groceries",
+    "price": 799,
+    "originalPrice": 999,
+    "rating": 4.8,
+    "stock": 42,
+    "description": "Premium extra virgin olive oil cold-pressed from selected Mediterranean olives. Perfect for salads, dressings, and light cooking.",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Himalayan Pink Salt (Coarse, 500g)",
+    "category": "Groceries",
+    "price": 129,
+    "originalPrice": 199,
+    "rating": 4.6,
+    "stock": 150,
+    "description": "100% natural, unrefined mineral-rich pink salt crystals mined from deep within the Himalayas. Adds delicate flavor to any dish.",
+    "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Raw Forest Honey (250g)",
+    "category": "Groceries",
+    "price": 299,
+    "originalPrice": 399,
+    "rating": 4.9,
+    "stock": 60,
+    "description": "Pure, unfiltered honey harvested from wild hives in protected forest reserves. Rich in natural enzymes and antioxidants.",
+    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Gluten-Free Whole Grain Rolled Oats (1kg)",
+    "category": "Groceries",
+    "price": 249,
+    "originalPrice": 349,
+    "rating": 4.5,
+    "stock": 90,
+    "description": "Premium quality rolled oats processed in a certified gluten-free facility. An ideal energy-boosting high-fiber breakfast option.",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Artisanal Matcha Green Tea Powder (50g)",
+    "category": "Beverages",
+    "price": 699,
+    "originalPrice": 899,
+    "rating": 4.8,
+    "stock": 35,
+    "description": "Ceremonial grade Japanese matcha green tea powder, stone-ground to preserve its vivid green hue and rich umami flavor.",
+    "image": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Single-Origin Arabica Coffee Roast (250g)",
+    "category": "Beverages",
+    "price": 499,
+    "originalPrice": 649,
+    "rating": 4.7,
+    "stock": 70,
+    "description": "Medium-roast Arabica coffee beans ethically sourced from high-altitude farms in Colombia. Notes of caramel, hazelnut, and citrus.",
+    "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Sparkling Elderflower Botanical Water (330ml)",
+    "category": "Beverages",
+    "price": 149,
+    "originalPrice": 199,
+    "rating": 4.3,
+    "stock": 110,
+    "description": "Refreshingly light carbonated spring water infused with organic elderflower blossoms and a splash of fresh lemon juice.",
+    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Peppermint Herbal Infusion (25 Bags)",
+    "category": "Beverages",
+    "price": 199,
+    "originalPrice": 279,
+    "rating": 4.6,
+    "stock": 95,
+    "description": "Soothing, caffeine-free herbal tea bags crafted from premium peppermint leaves. Enjoy hot or iced for a refreshing digestif.",
+    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Slow-Roasted California Almonds (200g)",
+    "category": "Snacks",
+    "price": 349,
+    "originalPrice": 449,
+    "rating": 4.7,
+    "stock": 120,
+    "description": "Premium quality almonds dry-roasted to a golden crisp and lightly seasoned with pure sea salt for a healthy crunch.",
+    "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "70% Dark Chocolate Quinoa Crisps (120g)",
+    "category": "Snacks",
+    "price": 229,
+    "originalPrice": 299,
+    "rating": 4.6,
+    "stock": 80,
+    "description": "Puffed organic quinoa seeds coated in rich, velvety 70% dark Belgian chocolate. A delightful sweet and crunchy combination.",
+    "image": "https://images.unsplash.com/photo-1549007994-cb92ca8a3bd6?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Gourmet Aged White Cheddar Popcorn (80g)",
+    "category": "Snacks",
+    "price": 119,
+    "originalPrice": 169,
+    "rating": 4.5,
+    "stock": 105,
+    "description": "Fluffy air-popped butterfly popcorn tossed in micro-ground premium white cheddar cheese seasoning. Zero trans fats.",
+    "image": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Air-Dried Beetroot Crisps (60g)",
+    "category": "Snacks",
+    "price": 159,
+    "originalPrice": 219,
+    "rating": 4.4,
+    "stock": 65,
+    "description": "Crisp and earthy beetroot slices slow-baked with a touch of organic cold-pressed olive oil and Himalayan salt.",
+    "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Fresh Organic Royal Gala Apples (4 Pack)",
+    "category": "Fruits",
+    "price": 189,
+    "originalPrice": 249,
+    "rating": 4.6,
+    "stock": 50,
+    "description": "Sweet, crisp, and orchard-fresh red Royal Gala apples. Sourced from certified organic growers, rich in dietary fiber.",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Sweet Cavendish Bananas (Bunch of 6)",
+    "category": "Fruits",
+    "price": 89,
+    "originalPrice": 119,
+    "rating": 4.7,
+    "stock": 85,
+    "description": "Naturally ripened sweet bananas with an excellent creamy texture. High in potassium and perfect for quick energy.",
+    "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Fresh Wild Blueberries (125g Punnet)",
+    "category": "Fruits",
+    "price": 269,
+    "originalPrice": 349,
+    "rating": 4.8,
+    "stock": 30,
+    "description": "Plump, juicy, and sweet blueberries loaded with vitamin C and vital antioxidants. Hand-picked at optimal ripeness.",
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Sweet Honey Gold Mangoes (Pack of 2)",
+    "category": "Fruits",
+    "price": 249,
+    "originalPrice": 329,
+    "rating": 4.9,
+    "stock": 40,
+    "description": "Exquisite honey gold mangoes, famous for their rich sweet nectar, fiberless flesh, and intense tropical aroma.",
+    "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Red Cherry Tomatoes (250g)",
+    "category": "Vegetables",
+    "price": 79,
+    "originalPrice": 109,
+    "rating": 4.5,
+    "stock": 70,
+    "description": "Vibrant and sweet vine-ripened cherry tomatoes. Bursting with fresh, tangy flavor, perfect for salads and pan-searing.",
+    "image": "https://images.unsplash.com/photo-1595855759920-86582396756a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Fresh Hydroponic English Cucumbers (2 Pack)",
+    "category": "Vegetables",
+    "price": 59,
+    "originalPrice": 79,
+    "rating": 4.4,
+    "stock": 95,
+    "description": "Crisp and hydrating seedless English cucumbers grown using advanced vertical hydroponics. Ideal for cooling summer salads.",
+    "image": "https://images.unsplash.com/photo-1604974244824-05335ad3bcbe?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Tender Organic Baby Spinach (150g)",
+    "category": "Vegetables",
+    "price": 89,
+    "originalPrice": 119,
+    "rating": 4.6,
+    "stock": 60,
+    "description": "Pre-washed, tender organic baby spinach leaves. Cultivated without chemical pesticides, rich in iron and folate.",
+    "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Fresh Crowns of Green Broccoli (400g)",
+    "category": "Vegetables",
+    "price": 99,
+    "originalPrice": 139,
+    "rating": 4.5,
+    "stock": 55,
+    "description": "Crisp green broccoli crowns with tight florets, packed with essential vitamins, minerals, and prebiotic fibers.",
+    "image": "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Artisanal Grass-Fed Butter (200g)",
+    "category": "Dairy Products",
+    "price": 249,
+    "originalPrice": 319,
+    "rating": 4.8,
+    "stock": 65,
+    "description": "Rich, velvety butter churned from the cream of grass-fed cows. Lightly salted with mineral-rich sea salt.",
+    "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Whole Jersey Milk (1L)",
+    "category": "Dairy Products",
+    "price": 89,
+    "originalPrice": 109,
+    "rating": 4.7,
+    "stock": 100,
+    "description": "Freshly pasteurized, non-homogenized whole milk sourced from purebred Jersey cows. Exceptional creamy taste.",
+    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Strained Authentic Greek Yogurt (Plain, 500g)",
+    "category": "Dairy Products",
+    "price": 169,
+    "originalPrice": 219,
+    "rating": 4.6,
+    "stock": 80,
+    "description": "Ultra-thick and creamy Greek yogurt, triple-strained to maximize protein content. Contains live active cultures.",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Aged English White Cheddar Cheese (250g)",
+    "category": "Dairy Products",
+    "price": 399,
+    "originalPrice": 499,
+    "rating": 4.9,
+    "stock": 40,
+    "description": "Sharp white cheddar cheese blocks aged for 12 months in temperature-controlled caves. Deep, mature flavor.",
+    "image": "https://images.unsplash.com/photo-1486887396153-fa416525c108?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Hydrating Aloe Vera Foam Face Wash (150ml)",
+    "category": "Personal Care",
+    "price": 289,
+    "originalPrice": 379,
+    "rating": 4.5,
+    "stock": 75,
+    "description": "Sulfate-free face wash enriched with 95% pure aloe vera and green tea extract. Cleanses gently without stripping moisture.",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Cold-Pressed Argan Hair Elixir (100ml)",
+    "category": "Personal Care",
+    "price": 649,
+    "originalPrice": 799,
+    "rating": 4.7,
+    "stock": 50,
+    "description": "Lightweight, non-greasy hair serum infused with Moroccan argan oil. Controls frizz and restores natural gloss.",
+    "image": "https://images.unsplash.com/photo-1608248597481-496100c8c836?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Raw Shea Butter Body Soufflé (200ml)",
+    "category": "Personal Care",
+    "price": 419,
+    "originalPrice": 519,
+    "rating": 4.6,
+    "stock": 60,
+    "description": "Intensely hydrating body whipped lotion formulated with raw African shea butter and restorative vitamin E.",
+    "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Activated Bamboo Charcoal Toothpaste (100g)",
+    "category": "Personal Care",
+    "price": 179,
+    "originalPrice": 239,
+    "rating": 4.4,
+    "stock": 90,
+    "description": "All-natural whitening toothpaste crafted with active coconut shell charcoal and organic spearmint leaf oil.",
+    "image": "https://images.unsplash.com/photo-1559599101-f09722fb4948?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Lavender Soy Wax Aromatherapy Candle",
+    "category": "Home Essentials",
+    "price": 479,
+    "originalPrice": 599,
+    "rating": 4.8,
+    "stock": 70,
+    "description": "Hand-poured soy wax candle infused with therapeutic-grade French lavender essential oil. Provides 45 hours of calm.",
+    "image": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Bamboo Fiber Bath Towel",
+    "category": "Home Essentials",
+    "price": 749,
+    "originalPrice": 949,
+    "rating": 4.7,
+    "stock": 50,
+    "description": "Plush, extra-soft bath towel woven from a high-performance blend of organic bamboo and long-staple Turkish cotton.",
+    "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Minimalist Matte Ceramic Vase",
+    "category": "Home Essentials",
+    "price": 899,
+    "originalPrice": 1199,
+    "rating": 4.6,
+    "stock": 35,
+    "description": "Stunning ceramic vase featuring an architectural silhouette and a subtle sand-textured finish. Elevates any room.",
+    "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Intelligent LED Reading Desk Lamp",
+    "category": "Home Essentials",
+    "price": 1299,
+    "originalPrice": 1799,
+    "rating": 4.5,
+    "stock": 40,
+    "description": "Adjustable desk lamp with flicker-free warm white light, touch-sensitive dimming, and USB charging outlet.",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Citrus Peel Multi-Surface Spray (500ml)",
+    "category": "Cleaning Products",
+    "price": 229,
+    "originalPrice": 299,
+    "rating": 4.5,
+    "stock": 80,
+    "description": "Tough-acting, plant-based surface cleaner spray powered by orange oil terpenes. Leaves a crisp citrus fragrance.",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Aloe Concentrated Liquid Dish Soap (500ml)",
+    "category": "Cleaning Products",
+    "price": 149,
+    "originalPrice": 199,
+    "rating": 4.6,
+    "stock": 100,
+    "description": "Biodegradable dish soap that easily cuts through grease while keeping hands soft with soothing aloe extracts.",
+    "image": "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Concentrated Eucalyptus Laundry Liquid (1L)",
+    "category": "Cleaning Products",
+    "price": 499,
+    "originalPrice": 649,
+    "rating": 4.7,
+    "stock": 55,
+    "description": "Hypoallergenic laundry detergent formulated with plant-derived cleaning enzymes and pure eucalyptus extract.",
+    "image": "https://images.unsplash.com/photo-1610557892470-76d74cd12456?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Coconut Fiber Eco-Scrub Sponges (3 Pack)",
+    "category": "Cleaning Products",
+    "price": 119,
+    "originalPrice": 159,
+    "rating": 4.4,
+    "stock": 120,
+    "description": "Plastic-free dishwashing sponges made with a combination of coconut coir fiber and natural cellulose pulp.",
+    "image": "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Insulated Stainless Steel Flask (1L)",
+    "category": "Kitchen Items",
+    "price": 679,
+    "originalPrice": 849,
+    "rating": 4.7,
+    "stock": 70,
+    "description": "Double-walled vacuum insulated flask keeping fluids icy cold for 24 hours or steaming hot for up to 12 hours.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Pre-Seasoned Cast Iron Skillet (10 inch)",
+    "category": "Kitchen Items",
+    "price": 1799,
+    "originalPrice": 2399,
+    "rating": 4.8,
+    "stock": 25,
+    "description": "Heavy-duty cast iron pan providing unmatched thermal retention. Pre-seasoned with natural vegetable oils.",
+    "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Premium Organic Bamboo Chopping Board",
+    "category": "Kitchen Items",
+    "price": 459,
+    "originalPrice": 599,
+    "rating": 4.6,
+    "stock": 60,
+    "description": "Durable and aesthetic kitchen chopping block crafted from renewable organic bamboo. Features juice runoff grooves.",
+    "image": "https://images.unsplash.com/photo-1594756297462-ec7572366ef5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Borosilicate Glass Carafe French Press (600ml)",
+    "category": "Kitchen Items",
+    "price": 929,
+    "originalPrice": 1299,
+    "rating": 4.7,
+    "stock": 40,
+    "description": "Elegant French press with heat-resistant borosilicate glass and a double-mesh stainless steel filter plunge.",
+    "image": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Double-Braided Nylon USB-C Cable (2m)",
+    "category": "Electronics Accessories",
+    "price": 349,
+    "originalPrice": 499,
+    "rating": 4.6,
+    "stock": 150,
+    "description": "Heavy-duty charging cable with reinforced connectors. Supports up to 60W power delivery and 480Mbps transfer.",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "MagSafe Fast Wireless Charger Pad",
+    "category": "Electronics Accessories",
+    "price": 1399,
+    "originalPrice": 1899,
+    "rating": 4.5,
+    "stock": 65,
+    "description": "Ultra-slim wireless charging pad equipped with strong magnetic alignment and advanced temperature controls.",
+    "image": "https://images.unsplash.com/photo-1622445262465-2481c4574875?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "True Wireless Active Noise Cancelling Earbuds",
+    "category": "Electronics Accessories",
+    "price": 3299,
+    "originalPrice": 4499,
+    "rating": 4.7,
+    "stock": 50,
+    "description": "Immersive Bluetooth 5.2 earbuds featuring active noise cancellation, custom audio drivers, and IPX7 rating.",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Ergonomic Gel Wrist Mouse Pad",
+    "category": "Electronics Accessories",
+    "price": 429,
+    "originalPrice": 599,
+    "rating": 4.4,
+    "stock": 80,
+    "description": "Non-slip rubber base mouse pad with an integrated gel pillow that conforms to your wrist for typing comfort.",
+    "image": "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Ashwagandha Adaptogen (60 Capsules)",
+    "category": "Health & Wellness",
+    "price": 479,
+    "originalPrice": 629,
+    "rating": 4.7,
+    "stock": 70,
+    "description": "USDA organic ashwagandha root extract combined with black pepper extract to maximize cellular absorption.",
+    "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Organic Vanilla Plant-Based Protein (1kg)",
+    "category": "Health & Wellness",
+    "price": 1899,
+    "originalPrice": 2499,
+    "rating": 4.6,
+    "stock": 45,
+    "description": "Premium allergen-free protein powder extracted from peas, brown rice, and chia seeds. Naturally sweetened.",
+    "image": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Cold-Pressed Ginger Turmeric Shots (6 Pack)",
+    "category": "Health & Wellness",
+    "price": 349,
+    "originalPrice": 449,
+    "rating": 4.8,
+    "stock": 40,
+    "description": "Concentrated daily shots made with cold-pressed ginger root, fresh turmeric, black pepper, and lemon juice.",
+    "image": "https://images.unsplash.com/photo-1610970881699-44a5587caaec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Aashirvaad Whole Wheat Atta (5kg)",
+    "category": "Groceries",
+    "price": 289,
+    "originalPrice": 349,
+    "rating": 4.8,
+    "stock": 120,
+    "description": "Premium whole wheat flour for soft rotis and healthy meals.",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Fortune Sunflower Oil (1L)",
+    "category": "Groceries",
+    "price": 179,
+    "originalPrice": 220,
+    "rating": 4.7,
+    "stock": 200,
+    "description": "Refined sunflower oil suitable for daily cooking.",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Fresh Farm Eggs (12 Pieces)",
+    "category": "Dairy Products",
+    "price": 89,
+    "originalPrice": 110,
+    "rating": 4.9,
+    "stock": 150,
+    "description": "Fresh farm eggs rich in protein and essential nutrients.",
+    "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Fresh Potatoes (1kg)",
+    "category": "Vegetables",
+    "price": 39,
+    "originalPrice": 55,
+    "rating": 4.5,
+    "stock": 300,
+    "description": "Farm-fresh potatoes suitable for all cooking needs.",
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Fresh Onions (1kg)",
+    "category": "Vegetables",
+    "price": 45,
+    "originalPrice": 60,
+    "rating": 4.4,
+    "stock": 250,
+    "description": "Fresh red onions sourced directly from farmers.",
+    "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Amul Butter (500g)",
+    "category": "Dairy Products",
+    "price": 285,
+    "originalPrice": 320,
+    "rating": 4.9,
+    "stock": 80,
+    "description": "Creamy and delicious butter for bread and cooking.",
+    "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Coca-Cola Soft Drink (2L)",
+    "category": "Beverages",
+    "price": 99,
+    "originalPrice": 120,
+    "rating": 4.6,
+    "stock": 140,
+    "description": "Refreshing carbonated soft drink for every occasion.",
+    "image": "https://images.unsplash.com/photo-1581636625402-29b2a704ef13?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Maggi Instant Noodles Pack",
+    "category": "Snacks",
+    "price": 14,
+    "originalPrice": 18,
+    "rating": 4.8,
+    "stock": 500,
+    "description": "India's favorite instant noodles ready in 2 minutes.",
+    "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Dual-Texture Eco Yoga Mat (6mm)",
+    "category": "Health & Wellness",
+    "price": 1399,
+    "originalPrice": 1899,
+    "rating": 4.7,
+    "stock": 35,
+    "description": "Slip-resistant, high-density yoga mat crafted from non-toxic biodegradable TPE. Alignment guidelines included.",
+    "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Pure Eucalyptus Essential Oil (15ml)",
+    "category": "Health & Wellness",
+    "price": 269,
+    "originalPrice": 359,
+    "rating": 4.5,
+    "stock": 85,
+    "description": "100% pure, steam-distilled eucalyptus globulus oil. Ideal for aromatic diffusers, spa sessions, and breathing comfort.",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "name": "Men's Premium Cotton Casual Shirt",
+    "category": "Fashion",
+    "price": 999,
+    "originalPrice": 1499,
+    "rating": 4.6,
+    "stock": 120,
+    "description": "Comfortable slim-fit cotton shirt suitable for office and casual wear.",
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600"
+  },
+  {
+    "name": "Women's Floral Summer Dress",
+    "category": "Fashion",
+    "price": 1499,
+    "originalPrice": 2199,
+    "rating": 4.8,
+    "stock": 85,
+    "description": "Elegant floral printed dress made from premium breathable fabric.",
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600"
+  },
+  {
+    "name": "Men's Slim Fit Blue Jeans",
+    "category": "Fashion",
+    "price": 1299,
+    "originalPrice": 1899,
+    "rating": 4.7,
+    "stock": 95,
+    "description": "Stretchable slim-fit denim jeans with premium wash finish.",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600"
+  },
+  {
+    "name": "Women's White Sneakers",
+    "category": "Fashion",
+    "price": 1999,
+    "originalPrice": 2799,
+    "rating": 4.8,
+    "stock": 60,
+    "description": "Lightweight and stylish sneakers perfect for everyday use.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+  },
+  {
+    "name": "Men's Leather Wallet",
+    "category": "Fashion",
+    "price": 699,
+    "originalPrice": 999,
+    "rating": 4.5,
+    "stock": 140,
+    "description": "Premium genuine leather wallet with multiple card slots.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600"
+  },
+  {
+    "name": "Women's Handbag",
+    "category": "Fashion",
+    "price": 1799,
+    "originalPrice": 2499,
+    "rating": 4.7,
+    "stock": 70,
+    "description": "Modern handbag with spacious compartments and elegant design.",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600"
+  },
+  {
+    "name": "Unisex Sports Cap",
+    "category": "Fashion",
+    "price": 399,
+    "originalPrice": 599,
+    "rating": 4.4,
+    "stock": 180,
+    "description": "Adjustable sports cap with breathable fabric.",
+    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600"
+  },
+  {
+    "name": "Men's Running Shoes",
+    "category": "Fashion",
+    "price": 2499,
+    "originalPrice": 3499,
+    "rating": 4.8,
+    "stock": 90,
+    "description": "Comfortable running shoes with superior cushioning.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+  },
+  {
+    "name": "Wireless Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 2999,
+    "originalPrice": 4499,
+    "rating": 4.8,
+    "stock": 75,
+    "description": "Noise-cancelling wireless headphones with 40-hour battery life.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
+  },
+  {
+    "name": "Smart Fitness Band",
+    "category": "Electronics",
+    "price": 1999,
+    "originalPrice": 2999,
+    "rating": 4.6,
+    "stock": 120,
+    "description": "Track steps, heart rate, sleep, and workouts.",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600"
+  },
+  {
+    "name": "Portable Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 2499,
+    "originalPrice": 3499,
+    "rating": 4.7,
+    "stock": 65,
+    "description": "Powerful sound with deep bass and waterproof design.",
+    "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=600"
+  },
+  {
+    "name": "1080p HD Webcam",
+    "category": "Electronics",
+    "price": 1699,
+    "originalPrice": 2499,
+    "rating": 4.5,
+    "stock": 80,
+    "description": "Full HD webcam for video conferencing and streaming.",
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=600"
+  },
+  {
+    "name": "Mechanical Gaming Keyboard",
+    "category": "Electronics",
+    "price": 3499,
+    "originalPrice": 4999,
+    "rating": 4.8,
+    "stock": 50,
+    "description": "RGB mechanical keyboard with tactile switches.",
+    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600"
+  },
+  {
+    "name": "Wireless Gaming Mouse",
+    "category": "Electronics",
+    "price": 2199,
+    "originalPrice": 3199,
+    "rating": 4.7,
+    "stock": 95,
+    "description": "High precision gaming mouse with customizable DPI.",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600"
+  },
+  {
+    "name": "10000mAh Fast Charging Power Bank",
+    "category": "Electronics",
+    "price": 1499,
+    "originalPrice": 2199,
+    "rating": 4.6,
+    "stock": 140,
+    "description": "Compact power bank with USB-C fast charging support.",
+    "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600"
+  },
+  {
+    "name": "27-inch Full HD Monitor",
+    "category": "Electronics",
+    "price": 11999,
+    "originalPrice": 14999,
+    "rating": 4.8,
+    "stock": 25,
+    "description": "Ultra-thin bezel monitor with vibrant display quality.",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"
+  },
+  {
+    "name": "Smart LED TV 43 Inch",
+    "category": "Electronics",
+    "price": 26999,
+    "originalPrice": 32999,
+    "rating": 4.9,
+    "stock": 20,
+    "description": "4K Smart TV with Android OS and voice control.",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600"
+  },
+  {
+    "name": "USB-C Fast Charger 65W",
+    "category": "Electronics",
+    "price": 1299,
+    "originalPrice": 1799,
+    "rating": 4.6,
+    "stock": 130,
+    "description": "Fast charger compatible with laptops, tablets, and smartphones.",
+    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600"
+  },
+  {
+    "name": "Laptop Backpack",
+    "category": "Fashion",
+    "price": 1499,
+    "originalPrice": 2299,
+    "rating": 4.7,
+    "stock": 90,
+    "description": "Water-resistant backpack with dedicated laptop compartment.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600"
+  },
+  {
+    "name": "Premium Analog Wrist Watch",
+    "category": "Fashion",
+    "price": 2999,
+    "originalPrice": 4499,
+    "rating": 4.8,
+    "stock": 45,
+    "description": "Elegant stainless steel watch with premium leather strap.",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600"
+  },
+  {
+    "name": "Men's Premium Denim Jacket",
+    "category": "Men Fashion",
+    "price": 2499,
+    "originalPrice": 3499,
+    "rating": 4.7,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600"
+  },
+  {
+    "name": "Men's Formal Shirt",
+    "category": "Men Fashion",
+    "price": 1499,
+    "originalPrice": 2299,
+    "rating": 4.6,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600"
+  },
+  {
+    "name": "Men's Casual Hoodie",
+    "category": "Men Fashion",
+    "price": 1999,
+    "originalPrice": 2999,
+    "rating": 4.8,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600"
+  },
+  {
+    "name": "Men's Slim Fit Jeans",
+    "category": "Men Fashion",
+    "price": 1799,
+    "originalPrice": 2599,
+    "rating": 4.5,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600"
+  },
+  {
+    "name": "Men's Polo T-Shirt",
+    "category": "Men Fashion",
+    "price": 999,
+    "originalPrice": 1499,
+    "rating": 4.4,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600"
+  },
+  {
+    "name": "Men's Leather Jacket",
+    "category": "Men Fashion",
+    "price": 4999,
+    "originalPrice": 6999,
+    "rating": 4.9,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=600"
+  },
+  {
+    "name": "Men's Cotton Kurta",
+    "category": "Men Fashion",
+    "price": 1599,
+    "originalPrice": 2399,
+    "rating": 4.6,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600"
+  },
+  {
+    "name": "Men's Blazer",
+    "category": "Men Fashion",
+    "price": 3999,
+    "originalPrice": 5999,
+    "rating": 4.8,
+    "stock": 25,
+    "image": "https://images.unsplash.com/photo-1593032465171-8f6f3f3d5c90?w=600"
+  },
+  {
+    "name": "Women's Floral Maxi Dress",
+    "category": "Women Fashion",
+    "price": 1899,
+    "originalPrice": 2799,
+    "rating": 4.8,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600"
+  },
+  {
+    "name": "Women's Handbag",
+    "category": "Women Fashion",
+    "price": 2199,
+    "originalPrice": 3199,
+    "rating": 4.7,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600"
+  },
+  {
+    "name": "Women's Party Gown",
+    "category": "Women Fashion",
+    "price": 3499,
+    "originalPrice": 4999,
+    "rating": 4.9,
+    "stock": 22,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600"
+  },
+  {
+    "name": "Women's Denim Jacket",
+    "category": "Women Fashion",
+    "price": 2599,
+    "originalPrice": 3599,
+    "rating": 4.6,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600"
+  },
+  {
+    "name": "Women's Crop Top",
+    "category": "Women Fashion",
+    "price": 899,
+    "originalPrice": 1399,
+    "rating": 4.5,
+    "stock": 100,
+    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600"
+  },
+  {
+    "name": "Women's Saree",
+    "category": "Women Fashion",
+    "price": 2999,
+    "originalPrice": 4499,
+    "rating": 4.8,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600"
+  },
+  {
+    "name": "Women's Kurti",
+    "category": "Women Fashion",
+    "price": 1399,
+    "originalPrice": 1999,
+    "rating": 4.6,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1583391733981-849c7a0e6f06?w=600"
+  },
+  {
+    "name": "Women's Blazer",
+    "category": "Women Fashion",
+    "price": 3299,
+    "originalPrice": 4699,
+    "rating": 4.7,
+    "stock": 28,
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600"
+  },
+  {
+    "name": "Men's Running Shoes",
+    "category": "Shoes",
+    "price": 3299,
+    "originalPrice": 4599,
+    "rating": 4.6,
+    "stock": 75,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+  },
+  {
+    "name": "Women's White Sneakers",
+    "category": "Shoes",
+    "price": 2799,
+    "originalPrice": 3999,
+    "rating": 4.7,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600"
+  },
+  {
+    "name": "Sports Training Shoes",
+    "category": "Shoes",
+    "price": 3599,
+    "originalPrice": 4999,
+    "rating": 4.8,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=600"
+  },
+  {
+    "name": "Formal Leather Shoes",
+    "category": "Shoes",
+    "price": 2999,
+    "originalPrice": 4299,
+    "rating": 4.5,
+    "stock": 42,
+    "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=600"
+  },
+  {
+    "name": "Women's Heels",
+    "category": "Shoes",
+    "price": 2499,
+    "originalPrice": 3499,
+    "rating": 4.6,
+    "stock": 38,
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600"
+  },
+  {
+    "name": "Casual Slip-On Shoes",
+    "category": "Shoes",
+    "price": 1899,
+    "originalPrice": 2699,
+    "rating": 4.4,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=600"
+  },
+  {
+    "name": "Premium Analog Wrist Watch",
+    "category": "Watches",
+    "price": 2999,
+    "originalPrice": 4499,
+    "rating": 4.8,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600"
+  },
+  {
+    "name": "Luxury Women's Watch",
+    "category": "Watches",
+    "price": 3999,
+    "originalPrice": 5999,
+    "rating": 4.9,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?w=600"
+  },
+  {
+    "name": "Smart Watch Pro",
+    "category": "Watches",
+    "price": 5999,
+    "originalPrice": 7999,
+    "rating": 4.7,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1579586337278-3f436f25d4d6?w=600"
+  },
+  {
+    "name": "Classic Leather Watch",
+    "category": "Watches",
+    "price": 2499,
+    "originalPrice": 3499,
+    "rating": 4.5,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=600"
+  }
+]
