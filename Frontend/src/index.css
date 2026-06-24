@@ -1,0 +1,931 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* ====================================================
+     Premium Classic Luxury White Theme (Default: Light)
+     ==================================================== */
+  body {
+    @apply bg-white text-gray-900 antialiased overflow-x-hidden;
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Dark mode — Elegant Deep Navy */
+  .dark body {
+    @apply bg-[#0F172A] text-slate-50;
+  }
+
+  /* Font size controls */
+  html.font-size-sm {
+    font-size: 14px;
+  }
+
+  html.font-size-base {
+    font-size: 16px;
+  }
+
+  html.font-size-lg {
+    font-size: 18px;
+  }
+
+  html.font-size-xl {
+    font-size: 20px;
+  }
+
+  /* Reading Mode */
+  .reading-mode {
+    filter: sepia(0.12) contrast(0.98) saturate(0.95);
+  }
+
+  .reading-mode * {
+    animation-delay: 0s !important;
+    animation-duration: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0s !important;
+  }
+
+  /* High Contrast */
+  .high-contrast body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .dark.high-contrast body {
+    background: #000000 !important;
+    color: #ffffff !important;
+  }
+
+  .high-contrast .glass-card {
+    background: #ffffff !important;
+    border: 2px solid #000000 !important;
+    box-shadow: none !important;
+  }
+
+  .dark.high-contrast .glass-card {
+    background: #000000 !important;
+    border: 2px solid #ffffff !important;
+  }
+
+  /* Premium Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #F9FAFB;
+  }
+
+  .dark ::-webkit-scrollbar-track {
+    background: #0F172A;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(6, 182, 212, 0.18);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #06B6D4;
+  }
+
+  /* Input placeholder */
+  input::placeholder,
+  textarea::placeholder {
+    color: #9CA3AF;
+  }
+
+  .dark input::placeholder,
+  .dark textarea::placeholder {
+    color: #6B7280;
+  }
+}
+
+/* ====================================================
+   Luxury Card System
+   ==================================================== */
+.glass-card {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06), 0 1px 2px -1px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark .glass-card {
+  background: #1E293B;
+  border: 1px solid #334155;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.25), 0 2px 4px -2px rgba(0, 0, 0, 0.15);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -5px rgba(6, 182, 212, 0.08), 0 4px 6px -4px rgba(6, 182, 212, 0.04);
+  border-color: rgba(6, 182, 212, 0.25);
+}
+
+.dark .glass-card-hover:hover {
+  box-shadow: 0 10px 30px -5px rgba(34, 211, 238, 0.15), 0 4px 6px -4px rgba(34, 211, 238, 0.08);
+  border-color: rgba(34, 211, 238, 0.3);
+}
+
+/* ====================================================
+   Luxury Navbar
+   ==================================================== */
+.glass-navbar {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.dark .glass-navbar {
+  background: rgba(15, 23, 42, 0.94);
+  border-bottom: 1px solid #334155;
+}
+
+/* ====================================================
+   Premium Input
+   ==================================================== */
+.glass-input {
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  color: #111827;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.dark .glass-input {
+  background: #0F172A;
+  border: 1px solid #334155;
+  color: #F8FAFC;
+}
+
+.glass-input::placeholder {
+  color: #9CA3AF;
+}
+
+.dark .glass-input::placeholder {
+  color: #6B7280;
+}
+
+.glass-input:focus {
+  background: #FFFFFF;
+  border-color: #06B6D4;
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.1);
+  outline: none;
+}
+
+.dark .glass-input:focus {
+  background: #1E293B;
+  border-color: #0EA5E9;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.12);
+}
+
+/* ====================================================
+   Gradients & Text Effects
+   ==================================================== */
+.text-gradient {
+  background: linear-gradient(135deg, #06B6D4 0%, #0EA5E9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dark .text-gradient {
+  background: linear-gradient(135deg, #22D3EE 0%, #38BDF8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-ocean {
+  background: linear-gradient(135deg, #06B6D4 0%, #0284C7 100%);
+}
+
+.bg-gradient-ocean-soft {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.05) 0%, rgba(2, 132, 199, 0.08) 100%);
+}
+
+.dark .bg-gradient-ocean-soft {
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.05) 0%, rgba(6, 182, 212, 0.08) 100%);
+}
+
+/* ====================================================
+   QR Code Scanner Laser Animation
+   ==================================================== */
+@keyframes scanner-animation {
+  0% {
+    top: 0%;
+    opacity: 0.3;
+  }
+
+  50% {
+    top: 96%;
+    opacity: 1;
+  }
+
+  100% {
+    top: 0%;
+    opacity: 0.3;
+  }
+}
+
+.animate-scanner {
+  animation: scanner-animation 2.5s infinite linear;
+}
+
+/* ====================================================
+   Skeleton Loading Shimmer
+   ==================================================== */
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg,
+      #F3F4F6 25%,
+      #E5E7EB 50%,
+      #F3F4F6 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite;
+}
+
+.dark .skeleton {
+  background: linear-gradient(90deg,
+      #1E293B 25%,
+      #334155 50%,
+      #1E293B 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite;
+}
+
+/* ====================================================
+   Page Scroll Progress Bar
+   ==================================================== */
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #06B6D4, #0EA5E9);
+  z-index: 9999;
+  transition: width 0.1s linear;
+}
+
+/* ====================================================
+   Utility Animations
+   ==================================================== */
+.animate-pulse-slow {
+  animation: pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.4s ease-out forwards;
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 0.25s ease-out forwards;
+}
+
+/* ====================================================
+   Badge / Tag Styles
+   ==================================================== */
+.badge-ocean {
+  background-color: rgba(6, 182, 212, 0.08);
+  border: 1px solid rgba(6, 182, 212, 0.15);
+  color: #06B6D4;
+}
+
+.badge-success {
+  background-color: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  color: #059669;
+}
+
+.badge-warning {
+  background-color: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  color: #D97706;
+}
+
+.badge-danger {
+  background-color: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  color: #DC2626;
+}
+
+/* Dark mode badge overrides */
+.dark .badge-ocean {
+  color: #22D3EE;
+}
+
+.dark .badge-success {
+  color: #34D399;
+}
+
+.dark .badge-warning {
+  color: #FBBF24;
+}
+
+.dark .badge-danger {
+  color: #F87171;
+}
+
+/* ====================================================
+   Ocean Hero Section — Premium 3D Animations & Effects
+   ==================================================== */
+
+/* --- 3D perspective container --- */
+.hero-3d-space {
+  perspective: 1200px;
+  perspective-origin: center center;
+}
+
+/* --- Floating particles --- */
+@keyframes ocean-float {
+
+  0%,
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0.4;
+  }
+
+  25% {
+    transform: translateY(-35px) translateX(18px) scale(1.15);
+    opacity: 0.7;
+  }
+
+  50% {
+    transform: translateY(-12px) translateX(-14px) scale(0.9);
+    opacity: 0.5;
+  }
+
+  75% {
+    transform: translateY(-45px) translateX(10px) scale(1.08);
+    opacity: 0.65;
+  }
+}
+
+.ocean-particle {
+  position: absolute;
+  border-radius: 9999px;
+  pointer-events: none;
+
+  animation:
+    oceanFloat var(--duration) ease-in-out infinite,
+    oceanGlow 4s ease-in-out infinite;
+}
+
+@keyframes oceanFloat {
+  0% {
+    transform: translateY(0px) translateX(0px) scale(1);
+  }
+
+  25% {
+    transform: translateY(-25px) translateX(12px) scale(1.1);
+  }
+
+  50% {
+    transform: translateY(-50px) translateX(-10px) scale(0.95);
+  }
+
+  75% {
+    transform: translateY(-20px) translateX(15px) scale(1.05);
+  }
+
+  100% {
+    transform: translateY(0px) translateX(0px) scale(1);
+  }
+}
+
+@keyframes oceanGlow {
+
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.9;
+  }
+}
+
+/* --- Wave drift --- */
+@keyframes wave-drift {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(30px);
+  }
+}
+
+.animate-wave-drift {
+  animation: wave-drift 12s ease-in-out infinite;
+}
+
+/* --- Ocean shimmer on text --- */
+@keyframes ocean-shimmer {
+  0% {
+    background-position: -200% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.text-ocean-shimmer {
+  background: linear-gradient(90deg,
+      #0891B2 0%,
+      #0EA5E9 25%,
+      #06B6D4 50%,
+      #0EA5E9 75%,
+      #0891B2 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: ocean-shimmer 6s linear infinite;
+}
+
+.dark .text-ocean-shimmer {
+  background: linear-gradient(90deg,
+      #22D3EE 0%,
+      #38BDF8 25%,
+      #22D3EE 50%,
+      #38BDF8 75%,
+      #22D3EE 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: ocean-shimmer 6s linear infinite;
+}
+
+/* --- Mist / fog drift --- */
+@keyframes mist-drift {
+  0% {
+    transform: translateX(-5%) scaleX(1);
+    opacity: 0.35;
+  }
+
+  50% {
+    transform: translateX(5%) scaleX(1.05);
+    opacity: 0.55;
+  }
+
+  100% {
+    transform: translateX(-5%) scaleX(1);
+    opacity: 0.35;
+  }
+}
+
+.ocean-mist {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(to top,
+      rgba(6, 182, 212, 0.06),
+      transparent);
+  pointer-events: none;
+  animation: mist-drift 16s ease-in-out infinite;
+}
+
+.dark .ocean-mist {
+  background: linear-gradient(to top,
+      rgba(34, 211, 238, 0.08),
+      transparent);
+}
+
+/* ====================================================
+   Logo Container — 3D Floating Circle
+   ==================================================== */
+
+/* 3D float for the logo wrapper */
+@keyframes logo-3d-float {
+
+  0%,
+  100% {
+    transform: translateY(0) rotateX(0deg) rotateY(0deg);
+  }
+
+  25% {
+    transform: translateY(-8px) rotateX(2deg) rotateY(-2deg);
+  }
+
+  50% {
+    transform: translateY(-14px) rotateX(-1deg) rotateY(3deg);
+  }
+
+  75% {
+    transform: translateY(-6px) rotateX(1.5deg) rotateY(-1deg);
+  }
+}
+
+.logo-3d-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  animation: logo-3d-float 6s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+@media (min-width: 768px) {
+  .logo-3d-container {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Gradient border circle behind the logo */
+.logo-circle {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(135deg,
+      rgba(6, 182, 212, 0.6) 0%,
+      rgba(14, 165, 233, 0.4) 50%,
+      rgba(6, 182, 212, 0.6) 100%);
+  -webkit-mask: linear-gradient(#fff, #fff) content-box, linear-gradient(#fff, #fff);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.dark .logo-circle {
+  background: linear-gradient(135deg,
+      rgba(34, 211, 238, 0.7) 0%,
+      rgba(14, 165, 233, 0.4) 50%,
+      rgba(34, 211, 238, 0.7) 100%);
+}
+
+/* Inner circle fill (white in light, dark in dark) */
+.logo-circle-bg {
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow:
+    0 8px 32px rgba(6, 182, 212, 0.1),
+    0 2px 8px rgba(0, 0, 0, 0.04),
+    inset 0 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.dark .logo-circle-bg {
+  background: rgba(15, 23, 42, 0.85);
+  box-shadow:
+    0 8px 32px rgba(34, 211, 238, 0.15),
+    0 2px 8px rgba(0, 0, 0, 0.3),
+    inset 0 1px 2px rgba(255, 255, 255, 0.05);
+}
+
+/* Pulsing glow behind the circle */
+@keyframes logo-glow-pulse {
+
+  0%,
+  100% {
+    box-shadow:
+      0 0 30px 8px rgba(6, 182, 212, 0.1),
+      0 0 60px 20px rgba(14, 165, 233, 0.05);
+  }
+
+  50% {
+    box-shadow:
+      0 0 50px 16px rgba(6, 182, 212, 0.18),
+      0 0 90px 35px rgba(14, 165, 233, 0.08);
+  }
+}
+
+.logo-glow {
+  animation: logo-glow-pulse 4s ease-in-out infinite;
+  border-radius: 50%;
+}
+
+/* Rotating orbit ring around the logo */
+@keyframes orbit-spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.logo-orbit-ring {
+  position: absolute;
+  inset: -12px;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(6, 182, 212, 0.15);
+  animation: orbit-spin 20s linear infinite;
+  pointer-events: none;
+}
+
+.dark .logo-orbit-ring {
+  border-color: rgba(34, 211, 238, 0.15);
+}
+
+/* Small orbiting dot on the ring */
+.logo-orbit-dot {
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #06B6D4, #0EA5E9);
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.4);
+}
+
+.dark .logo-orbit-dot {
+  background: linear-gradient(135deg, #22D3EE, #38BDF8);
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+}
+
+/* ====================================================
+   Ambient Orb Movement
+   ==================================================== */
+@keyframes ambient-orb {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  33% {
+    transform: translate(40px, -20px) scale(1.1);
+  }
+
+  66% {
+    transform: translate(-20px, 30px) scale(0.95);
+  }
+}
+
+.ambient-orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform;
+  animation: ambient-orb var(--orb-duration, 20s) ease-in-out infinite;
+  animation-delay: var(--orb-delay, 0s);
+}
+
+/* ====================================================
+   Glassmorphism Search Bar — 3D Lift
+   ==================================================== */
+.hero-search-glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(6, 182, 212, 0.1);
+  box-shadow:
+    0 4px 24px rgba(6, 182, 212, 0.06),
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-search-glass:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 32px rgba(6, 182, 212, 0.1),
+    0 2px 6px rgba(0, 0, 0, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.dark .hero-search-glass {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(34, 211, 238, 0.12);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.2),
+    0 1px 3px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.dark .hero-search-glass:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 32px rgba(34, 211, 238, 0.1),
+    0 2px 6px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.hero-search-glass:focus-within {
+  border-color: rgba(6, 182, 212, 0.3);
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 32px rgba(6, 182, 212, 0.12),
+    0 0 0 3px rgba(6, 182, 212, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.dark .hero-search-glass:focus-within {
+  border-color: rgba(34, 211, 238, 0.35);
+  box-shadow:
+    0 8px 32px rgba(34, 211, 238, 0.12),
+    0 0 0 3px rgba(34, 211, 238, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+/* ====================================================
+   CTA Buttons — 3D Depth
+   ==================================================== */
+.hero-cta-primary {
+  position: relative;
+  background: linear-gradient(135deg, #06B6D4 0%, #0284C7 100%);
+  box-shadow:
+    0 4px 16px rgba(6, 182, 212, 0.3),
+    0 1px 3px rgba(6, 182, 212, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-cta-primary:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 28px rgba(6, 182, 212, 0.4),
+    0 2px 6px rgba(6, 182, 212, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.hero-cta-primary:active {
+  transform: translateY(0);
+  box-shadow:
+    0 2px 8px rgba(6, 182, 212, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.hero-cta-glass {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(6, 182, 212, 0.1);
+  box-shadow:
+    0 2px 12px rgba(6, 182, 212, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-cta-glass:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(6, 182, 212, 0.2);
+  box-shadow:
+    0 6px 24px rgba(6, 182, 212, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.hero-cta-glass:active {
+  transform: translateY(0);
+}
+
+.dark .hero-cta-glass {
+  background: rgba(30, 41, 59, 0.55);
+  border: 1px solid rgba(34, 211, 238, 0.12);
+  box-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.dark .hero-cta-glass:hover {
+  background: rgba(30, 41, 59, 0.75);
+  border-color: rgba(34, 211, 238, 0.25);
+  box-shadow:
+    0 6px 24px rgba(34, 211, 238, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+/* ====================================================
+   Wave SVG Sway Animations
+   ==================================================== */
+@keyframes wave-sway-1 {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes wave-sway-2 {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes wave-sway-3 {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-15px);
+  }
+}
+
+.wave-layer-1 {
+  animation: wave-sway-1 8s ease-in-out infinite;
+}
+
+.wave-layer-2 {
+  animation: wave-sway-2 10s ease-in-out infinite;
+}
+
+.wave-layer-3 {
+  animation: wave-sway-3 12s ease-in-out infinite;
+}
+
+/* ====================================================
+   Trust Badge — Glassmorphism
+   ==================================================== */
+.trust-badge {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(6, 182, 212, 0.1);
+  box-shadow:
+    0 2px 12px rgba(6, 182, 212, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.dark .trust-badge {
+  background: rgba(30, 41, 59, 0.45);
+  border: 1px solid rgba(34, 211, 238, 0.12);
+  box-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+/* ====================================================
+   3D Card Tilt on Hover — For Feature Cards
+   ==================================================== */
+.card-3d-tilt {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+}
+
+.card-3d-tilt:hover {
+  transform: perspective(800px) rotateX(-2deg) rotateY(2deg) translateY(-4px);
+  box-shadow:
+    0 16px 40px rgba(6, 182, 212, 0.08),
+    0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.dark .card-3d-tilt:hover {
+  box-shadow:
+    0 16px 40px rgba(34, 211, 238, 0.1),
+    0 4px 12px rgba(0, 0, 0, 0.2);
+}
