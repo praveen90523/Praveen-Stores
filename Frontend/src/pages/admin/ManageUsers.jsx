@@ -130,7 +130,7 @@ const ManageUsers = () => {
                       <td className="py-3.5 px-4">
                         <div className="flex items-center gap-3">
                           <img
-                            src={u.avatar || "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100"}
+                            src={u.avatar || "https://i.pinimg.com/1200x/15/1f/a3/151fa3a0f125064f90044b85b5c4c038.jpg"}
                             alt={u.name}
                             className="w-8 h-8 rounded-full object-cover border border-slate-100 dark:border-slate-800"
                           />

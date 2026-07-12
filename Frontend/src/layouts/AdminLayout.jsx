@@ -45,9 +45,8 @@ const AdminLayout = () => {
 
       {/* Sidebar */}
       <aside
-        className={`fixed inset-y-0 left-0 z-40 w-64 bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 p-6 flex flex-col justify-between transform transition-transform duration-300 md:translate-x-0 md:static md:h-screen shadow-sm ${
-          sidebarOpen ? "translate-x-0" : "-translate-x-full"
-        }`}
+        className={`fixed inset-y-0 left-0 z-40 w-64 bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 p-6 flex flex-col justify-between transform transition-transform duration-300 md:translate-x-0 md:static md:h-screen shadow-sm ${sidebarOpen ? "translate-x-0" : "-translate-x-full"
+          }`}
       >
         <div>
           {/* Logo */}
@@ -60,7 +59,7 @@ const AdminLayout = () => {
                 <Zap size={16} className="text-white" />
               </div>
               <div>
-                <p className="text-sm font-bold text-gray-900 dark:text-white leading-tight">AG Store</p>
+                <p className="text-sm font-bold text-gray-900 dark:text-white leading-tight">Praveen Store</p>
                 <p className="text-[10px] text-gray-400 leading-tight">Admin Console</p>
               </div>
             </Link>
@@ -76,11 +75,10 @@ const AdminLayout = () => {
                   key={item.name}
                   to={item.path}
                   onClick={() => setSidebarOpen(false)}
-                  className={`flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${
-                    isActive
+                  className={`flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${isActive
                       ? "bg-cyan-50 dark:bg-cyan-950/20 text-cyan-600 dark:text-cyan-400 border border-cyan-100 dark:border-cyan-900"
                       : "text-gray-600 dark:text-gray-400 hover:bg-cyan-50/50 dark:hover:bg-slate-700 hover:text-cyan-600 dark:hover:text-white"
-                  }`}
+                    }`}
                 >
                   <Icon size={18} />
                   <span>{item.name}</span>

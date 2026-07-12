@@ -198,7 +198,7 @@ const Cart = () => {
                             {items.map((item) => {
                                 const prod = getCartProduct(item);
                                 if (!prod) return null;
-                                const imgUrl = prod.images?.[0] || "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200";
+                                const imgUrl = prod.images?.[0] || "https://i.pinimg.com/1200x/fb/bb/c2/fbbbc25b5993a79392a64e68068e4cb1.jpg";
 
                                 return (
                                     <div

@@ -34,7 +34,7 @@ const MainLayout = () => {
       <Navbar />
 
       {/* Main Content Area */}
-      <main className="flex-grow pt-20 pb-16 relative z-10">
+      <main className="flex-grow pt-28 pb-16 relative z-10">
         <Outlet />
       </main>
 

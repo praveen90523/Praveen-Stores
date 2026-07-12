@@ -69,7 +69,7 @@ const ProductComparison = () => {
                 className="relative bg-slate-100 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-1 pr-6 flex items-center gap-2"
               >
                 <img
-                  src={prod.images?.[0] || "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=100"}
+                  src={prod.images?.[0] || "https://i.pinimg.com/1200x/09/b1/02/09b1022987a9ce464000a1777a6859f4.jpg"}
                   alt={prod.name}
                   className="w-8 h-8 object-cover rounded"
                 />
@@ -130,7 +130,7 @@ const ProductComparison = () => {
                       <th key={prod._id} className="py-4 px-4 w-1/4">
                         <div className="flex flex-col gap-2">
                           <img
-                            src={prod.images?.[0] || "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200"}
+                            src={prod.images?.[0] || "https://i.pinimg.com/1200x/fb/bb/c2/fbbbc25b5993a79392a64e68068e4cb1.jpg"}
                             alt={prod.name}
                             className="w-full h-32 object-cover rounded-xl border border-slate-200 dark:border-slate-800"
                           />

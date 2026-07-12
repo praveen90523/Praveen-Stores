@@ -81,7 +81,7 @@ const ManageProducts = () => {
                   </tr>
                 ) : (
                   products.map((product) => {
-                    const imgUrl = product.images?.[0] || "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80";
+                    const imgUrl = product.images?.[0] || "https://i.pinimg.com/1200x/be/3c/58/be3c58f1bbd182e1e632f73bc4ba20db.jpg";
                     return (
                       <tr key={product._id} className="hover:bg-slate-50 dark:hover:bg-slate-800/20">
                         <td className="py-4 px-4">

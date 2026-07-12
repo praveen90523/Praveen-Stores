@@ -28,7 +28,7 @@ const seedData = async () => {
       password: hashedPassword,
       role: "admin",
       phone: "+91 99999 88888",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      avatar: "https://i.pinimg.com/1200x/7b/f8/88/7bf8886ae511e5fd6bc642592f8b88fa.jpg",
     });
     console.log("Admin Account Created");
 
@@ -68,7 +68,7 @@ const seedData = async () => {
       stock: p.stock !== undefined ? p.stock : 50,
       rating: p.rating !== undefined ? p.rating : 4.5,
       numOfReviews: 0,
-      images: [{ url: p.image || "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" }],
+      images: [{ url: p.image || "https://i.pinimg.com/1200x/be/3c/58/be3c58f1bbd182e1e632f73bc4ba20db.jpg" }],
       user: adminUser._id,
       reviews: []
     }));

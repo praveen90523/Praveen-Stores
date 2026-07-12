@@ -71,7 +71,7 @@ app.use(
 // ========================
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 200,
+  max: process.env.NODE_ENV === "production" ? 200 : 20000, // Safe limit for production, high threshold for local development
   message: {
     success: false,
     message:

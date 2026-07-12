@@ -66,7 +66,7 @@ const AddProduct = () => {
       price: Number(price),
       stock: Number(stock),
       category,
-      images: images.length > 0 ? images : ["https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"],
+      images: images.length > 0 ? images : ["https://i.pinimg.com/1200x/be/3c/58/be3c58f1bbd182e1e632f73bc4ba20db.jpg"],
     };
 
     dispatch(createProduct(productPayload));

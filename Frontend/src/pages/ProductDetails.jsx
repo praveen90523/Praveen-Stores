@@ -55,7 +55,7 @@ const ProductDetails = () => {
       setActiveImage(
         product.images && product.images.length > 0
           ? product.images[0]
-          : "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+          : "https://i.pinimg.com/1200x/be/3c/58/be3c58f1bbd182e1e632f73bc4ba20db.jpg"
       );
       
       if (product.category?._id) {
@@ -539,7 +539,7 @@ const ProductDetails = () => {
                 <div key={p._id} className="glass-card rounded-3xl overflow-hidden flex flex-col group border border-slate-200 dark:border-slate-800">
                   <Link to={`/products/${p._id}`} className="block h-40 overflow-hidden bg-slate-50 dark:bg-slate-950">
                     <img
-                      src={p.images?.[0] || "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400"}
+                      src={p.images?.[0] || "https://i.pinimg.com/1200x/be/3c/58/be3c58f1bbd182e1e632f73bc4ba20db.jpg"}
                       alt={p.name}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />

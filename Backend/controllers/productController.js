@@ -33,7 +33,7 @@ const createProduct = async (req, res) => {
 const getProducts = async (req, res) => {
   try {
     const productsCount = await Product.countDocuments();
-    const resPerPage = req.query.limit ? (req.query.limit === "all" ? productsCount || 1000 : Number(req.query.limit)) : 8;
+    const resPerPage = req.query.limit ? (req.query.limit === "all" ? productsCount || 1000 : Number(req.query.limit)) : 12;
 
     // Get count of filtered products before pagination
     const countFeatures = new APIFeatures(Product.find(), req.query)
